@@ -24651,7 +24651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Points:
   - {x: 10.29568, y: 2.85}
-  - {x: 10.295677, y: -3.6191506}
+  - {x: 10.295677, y: 2.8}
   speed: 0.009
   number: 0
 --- !u!1 &1749311488
@@ -31451,6 +31451,16 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneName
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2422481688783725702, guid: 6322c9d19b47b4e8d825c7777db8f209,
+        type: 3}
+      propertyPath: speed
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2422481688783725702, guid: 6322c9d19b47b4e8d825c7777db8f209,
+        type: 3}
+      propertyPath: jumpForce
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 2422481688783725721, guid: 6322c9d19b47b4e8d825c7777db8f209,
         type: 3}
