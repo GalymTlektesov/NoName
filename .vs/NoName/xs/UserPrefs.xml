@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{B28342DB-D616-8E16-E43C-A16BBB40C1FD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/MouseController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/NextLevel.cs">
     <Files>
-      <File FileName="Assets/Shader/Depth.shader" Line="7" Column="9" />
       <File FileName="Assets/Script/PlatformScript.cs" Line="18" Column="41" />
-      <File FileName="Assets/Script/TrapScript.cs" />
-      <File FileName="Assets/Script/PlayerController.cs" />
-      <File FileName="Assets/Script/MouseController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/TrapScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/PlayerController.cs" Line="51" Column="12" />
+      <File FileName="Assets/Script/MouseController.cs" Line="14" Column="49" />
+      <File FileName="Assets/Script/NextLevel.cs" Line="7" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +13,7 @@
           <Node name="NoName" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Script" expanded="True">
-                <Node name="MouseController.cs" selected="True" />
+                <Node name="NextLevel.cs" selected="True" />
               </Node>
               <Node name="Shader" expanded="True" />
             </Node>
@@ -24,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4ded08bf-d5b3-4518-923c-e50b8b2f992f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="204d2c6b-98c2-45bc-ba68-303cba4fe989" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

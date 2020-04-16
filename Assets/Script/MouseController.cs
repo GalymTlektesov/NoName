@@ -11,7 +11,7 @@ public class MouseController : MonoBehaviour
     private void Update()
     {
         var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = Vector2.Lerp(transform.position, new Vector2(mousePos.x, mousePos.y), speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, new Vector2(mousePos.x, mousePos.y), speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -25,9 +25,11 @@ public class MouseController : MonoBehaviour
         {
             key = true;
             Destroy(collision.gameObject);
+            Debug.Log("Key comlete");
         }
         if (collision.CompareTag("Door") && key)
         {
+            Debug.Log("Door Open!");
             SceneManager.LoadScene(++sceneName, LoadSceneMode.Single);
             key = false;
         }
