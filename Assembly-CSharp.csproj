@@ -65,8 +65,10 @@
   <ItemGroup>
     <Compile Include="Assets\Script\CameraScript.cs" />
     <Compile Include="Assets\Script\ClickDelete.cs" />
+    <Compile Include="Assets\Script\ClickText.cs" />
     <Compile Include="Assets\Script\DragPlayer.cs" />
     <Compile Include="Assets\Script\HintScript.cs" />
+    <Compile Include="Assets\Script\KeyText.cs" />
     <Compile Include="Assets\Script\LiftScript.cs" />
     <Compile Include="Assets\Script\MouseController.cs" />
     <Compile Include="Assets\Script\NextLevel.cs" />
