@@ -312,9 +312,13 @@ public class PlayerController : MonoBehaviour
     //
     private void OnCollisionStay2D(Collision2D collision)
     {
-        isAir = false;
+        if (collision.collider.CompareTag("Floor"))
+        {
+            isAir = false;
+        }
         if (collision.collider.CompareTag("Lift"))
         {
+            isAir = false;
             if (firstLift)
             {
                 firstLift = false;

@@ -12,6 +12,7 @@ TagManager:
   - Turn
   - LieDoor
   - Lie
+  - Floor
   layers:
   - Default
   - TransparentFX

@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 172130908}
   m_Layer: 0
   m_Name: "\u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0430"
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 186508757}
   m_Layer: 0
   m_Name: "\u0434\u0432\u0435\u0440\u044C"
-  m_TagString: Respawn
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1356,7 +1356,7 @@ GameObject:
   - component: {fileID: 474356396}
   m_Layer: 0
   m_Name: "\u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0430 (3)"
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1430,7 +1430,7 @@ GameObject:
   - component: {fileID: 476345990}
   m_Layer: 0
   m_Name: "\u043F (3)"
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2112,7 +2112,7 @@ GameObject:
   - component: {fileID: 845977224}
   m_Layer: 0
   m_Name: "\u043F (1)"
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2549,7 +2549,7 @@ GameObject:
   - component: {fileID: 1131457056}
   m_Layer: 0
   m_Name: "\u043B"
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3466,7 +3466,7 @@ GameObject:
   - component: {fileID: 1413670581}
   m_Layer: 0
   m_Name: "\u043F (2)"
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3850,7 +3850,7 @@ GameObject:
   - component: {fileID: 1520653978}
   m_Layer: 0
   m_Name: "\u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0430"
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4005,7 +4005,7 @@ GameObject:
   - component: {fileID: 1609842496}
   m_Layer: 0
   m_Name: "\u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0430 (2)"
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4187,7 +4187,7 @@ GameObject:
   - component: {fileID: 1680965155}
   m_Layer: 0
   m_Name: "\u043F"
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4673,7 +4673,7 @@ GameObject:
   - component: {fileID: 1827281863}
   m_Layer: 0
   m_Name: "\u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0430 (1)"
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5252,6 +5252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2422481688783725721, guid: 6322c9d19b47b4e8d825c7777db8f209,
+        type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6322c9d19b47b4e8d825c7777db8f209, type: 3}
