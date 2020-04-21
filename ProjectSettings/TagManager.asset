@@ -8,6 +8,10 @@ TagManager:
   - Key
   - Door
   - Lift
+  - Cliff
+  - Turn
+  - LieDoor
+  - Lie
   layers:
   - Default
   - TransparentFX
